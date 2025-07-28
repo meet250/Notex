@@ -42,7 +42,7 @@ return (
           <>
             <Button variant='ghost' size='sm' asChild>
               <Link href='/documents'>
-                Enter Jotion
+                Enter Notex
               </Link>
             </Button>
             <UserButton afterSignOutUrl="/"/>

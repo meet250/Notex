@@ -11,7 +11,7 @@ import { EdgeStoreProvider } from "@/lib/edgestore";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Jotion',
+  title: 'Notex',
   description: 'The connected workspace where better, faster work happens.',
   icons: {
     icon: [
@@ -39,7 +39,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <ConvexClientProvider>
           <EdgeStoreProvider>
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange storageKey="jotion-clone-2">
+          <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange storageKey="Notex-clone-2">
             <Toaster position="bottom-center" />
             <ModalProvider/>
             {children}
