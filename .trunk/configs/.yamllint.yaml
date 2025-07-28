@@ -7,4 +7,5 @@ rules:
     forbid-in-flow-mappings: true
   key-duplicates: {}
   octal-values:
+  
     forbid-implicit-octal: true
