@@ -1,4 +1,4 @@
-/** @type {import('next').NextConfig} */
+/** @type {import('next').NextConfig} real*/
 const nextConfig = {
   images:{
     domains:["files.edgestore.dev"]
